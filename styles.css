@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px; /* Tamaño máis realista */
+  width: 100%;
+  min-height: 100vh;
+  margin: auto;
+  border: 1px solid #ccc; /* Engade un marco lixeiro */
+  background: #fff;
+}
+
+.encabezado {
+  display: flex;
+
+  justify-content: space-between; /* Espacio entre elementos */
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.icono-encabezado {
+  font-size: 24px;
+}
+
+.html5nomeusuario {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.icono3ptos {
+  font-size: 20px;
+}
+
+.foto img {
+  width: 100%;
+  display: block;
+}
+
+.subfoto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.los3 {
+  display: flex;
+  gap: 15px; /* Sepáranse os íconos */
+}
+
+.iconofavorito {
+  margin-left: auto;
+}
+
+.fondo {
+  padding: 10px;
+}
+
+.likes {
+  font-weight: bold;
+}
+
+.texto {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333;
+}
